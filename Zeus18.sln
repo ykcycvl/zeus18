@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus18", "Zeus18\Zeus18.csproj", "{34C23D71-A9BB-41FA-87D9-008B912080E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acceptors", "..\Zeus2013\Acceptors\Acceptors\Acceptors.csproj", "{F701D50F-B903-4D9F-B66D-2B03D7B93581}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acceptors", "..\zeus18\Acceptors\Acceptors\Acceptors.csproj", "{F701D50F-B903-4D9F-B66D-2B03D7B93581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRL", "..\Zeus2013\FR\FRL\FRL.csproj", "{BAE9B47A-11F3-49D2-9D16-1DDB3D008685}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRL", "..\zeus18\FR\FRL\FRL.csproj", "{BAE9B47A-11F3-49D2-9D16-1DDB3D008685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printers", "..\Zeus2013\Printers\Printers\Printers.csproj", "{C4C9007C-A2F4-4C95-8CA4-1FB0CF7DC673}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printers", "..\zeus18\Printers\Printers\Printers.csproj", "{C4C9007C-A2F4-4C95-8CA4-1FB0CF7DC673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rstrt.exe", "..\Zeus2013\rstrt.exe\rstrt.exe\rstrt.exe.csproj", "{FDDBFBA7-CE59-4E74-9AB6-68CAFD7281A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rstrt.exe", "..\zeus18\rstrt.exe\rstrt.exe\rstrt.exe.csproj", "{FDDBFBA7-CE59-4E74-9AB6-68CAFD7281A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wds", "..\Zeus2013\wds\wds\wds.csproj", "{4DBFC3A8-3DA9-45CD-8763-F86C9E5CFB11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wds", "..\zeus18\wds\wds\wds.csproj", "{4DBFC3A8-3DA9-45CD-8763-F86C9E5CFB11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "remoteFR", "..\Zeus2017\remoteFR\remoteFR\remoteFR.csproj", "{AE2BDFA0-869B-4266-AA18-8EF82642EDB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "remoteFR", "..\zeus18\remoteFR\remoteFR\remoteFR.csproj", "{AE2BDFA0-869B-4266-AA18-8EF82642EDB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

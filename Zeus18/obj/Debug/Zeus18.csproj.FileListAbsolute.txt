@@ -30,3 +30,4 @@ C:\WorkPrograms\_Automats\Zeus18\Zeus18\obj\Debug\zeus.application
 C:\WorkPrograms\_Automats\Zeus18\Zeus18\obj\Debug\zeus.main.resources
 C:\WorkPrograms\_Automats\Zeus18\Zeus18\obj\Debug\zeus.flushform.resources
 C:\WorkPrograms\_Automats\Zeus18\Zeus18\bin\Debug\DotRas.dll
+D:\Work\zeus18\Zeus18\obj\Debug\zeus.exe
