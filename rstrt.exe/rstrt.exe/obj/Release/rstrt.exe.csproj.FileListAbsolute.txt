@@ -1,0 +1,10 @@
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\rstrt.exe\rstrt.exe\bin\Release\rstrt.exe.exe
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\rstrt.exe\rstrt.exe\bin\Release\rstrt.exe.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\rstrt.exe\rstrt.exe\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.exe
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.pdb
+D:\Zeus2013\rstrt.exe\rstrt.exe\bin\Release\rstrt.exe.exe
+D:\Zeus2013\rstrt.exe\rstrt.exe\bin\Release\rstrt.exe.pdb
+D:\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\ResolveAssemblyReference.cache
+D:\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.exe
+D:\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.pdb

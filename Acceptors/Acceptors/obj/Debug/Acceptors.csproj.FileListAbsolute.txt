@@ -1,0 +1,35 @@
+C:\Documents and Settings\DriveR\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.dll
+C:\Documents and Settings\DriveR\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.pdb
+C:\Documents and Settings\DriveR\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\DriveR\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.dll
+C:\Documents and Settings\DriveR\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.pdb
+C:\Documents and Settings\dima.k\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.dll
+C:\Documents and Settings\dima.k\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.pdb
+C:\Documents and Settings\dima.k\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.dll
+C:\Documents and Settings\dima.k\My Documents\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.pdb
+\\192.168.10.117\vs2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.dll
+\\192.168.10.117\vs2008\Projects\Acceptors\Acceptors\bin\Debug\Acceptors.pdb
+\\192.168.10.117\vs2008\Projects\Acceptors\Acceptors\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.10.117\vs2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.dll
+\\192.168.10.117\vs2008\Projects\Acceptors\Acceptors\obj\Debug\Acceptors.pdb
+D:\Zeus2013\Acceptors\Acceptors\bin\Debug\Acceptors.dll
+D:\Zeus2013\Acceptors\Acceptors\bin\Debug\Acceptors.pdb
+D:\Zeus2013\Acceptors\Acceptors\obj\Debug\ResolveAssemblyReference.cache
+D:\Zeus2013\Acceptors\Acceptors\obj\Debug\Acceptors.dll
+D:\Zeus2013\Acceptors\Acceptors\obj\Debug\Acceptors.pdb
+C:\WorkPrograms\_Automats\Zeus2013\Acceptors\Acceptors\bin\Debug\Acceptors.dll
+C:\WorkPrograms\_Automats\Zeus2013\Acceptors\Acceptors\bin\Debug\Acceptors.pdb
+C:\WorkPrograms\_Automats\Zeus2013\Acceptors\Acceptors\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkPrograms\_Automats\Zeus2013\Acceptors\Acceptors\obj\Debug\Acceptors.dll
+C:\WorkPrograms\_Automats\Zeus2013\Acceptors\Acceptors\obj\Debug\Acceptors.pdb
+C:\WorkPrograms\_Automats\Zeus2017\Acceptors\Acceptors\bin\Debug\Acceptors.dll
+C:\WorkPrograms\_Automats\Zeus2017\Acceptors\Acceptors\bin\Debug\Acceptors.pdb
+C:\WorkPrograms\_Automats\Zeus2017\Acceptors\Acceptors\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkPrograms\_Automats\Zeus2017\Acceptors\Acceptors\obj\Debug\Acceptors.dll
+C:\WorkPrograms\_Automats\Zeus2017\Acceptors\Acceptors\obj\Debug\Acceptors.pdb

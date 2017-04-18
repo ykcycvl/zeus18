@@ -1,0 +1,20 @@
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\bin\Debug\WDWIN.exe
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\bin\Debug\WDWIN.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\obj\Debug\WDWIN.Form1.resources
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\obj\Debug\WDWIN.Properties.Resources.resources
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\obj\Debug\WDWIN.csproj.GenerateResource.Cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\obj\Debug\WDWIN.exe
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\obj\Debug\WDWIN.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\bin\Debug\wds.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\wds\WDWIN\bin\Debug\wds.pdb
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\obj\Debug\WDWIN.exe
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\obj\Debug\WDWIN.pdb
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\bin\Debug\WDWIN.exe
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\bin\Debug\WDWIN.pdb
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\bin\Debug\wds.dll
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\bin\Debug\wds.pdb
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\obj\Debug\WDWIN.Form1.resources
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\obj\Debug\WDWIN.Properties.Resources.resources
+\\192.168.10.117\vs2008\Projects\wds\WDWIN\obj\Debug\WDWIN.csproj.GenerateResource.Cache

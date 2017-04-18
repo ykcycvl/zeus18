@@ -1,0 +1,13 @@
+<response>
+  <frs>
+    <remoteFR>True</remoteFR>
+    <checkWidth>40</checkWidth>
+    <remoteFRtimeout>9000</remoteFRtimeout>
+    <remoteFRurl>http://82.162.156.162:55007/buy</remoteFRurl>
+    <headertext>Юр. адрес: г. Владивосток, п-т 100 лет Владивостоку 123-27
+Колл-центр: 8(423)2-999-103</headertext>
+  </frs>
+  <configuration-id>419</configuration-id>
+  <blocked>0</blocked>
+  <speed>124</speed>
+</response>

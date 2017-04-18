@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StarIO</name>
+    </assembly>
+    <members>
+        <member name="T:StarMicronics.StarIO.IPort">
+            <summary>
+            This interface supports communicating with Star Micronics's printers.  It supports serial, parallel, usb, and ethernet based printers, and hides most of the low level behavioral differences inherent in those different communication forms.
+            </summary>
+        </member>
+        <member name="M:StarMicronics.StarIO.IPort.WritePort(System.Byte[],System.UInt32,System.UInt32)">
+            <summary>
+            This function writes data to the device.
+            </summary>
+            <param name="writeBuffer">byte buffer containing the write data</param>
+            <param name="offset">offset into the write buffer</param>
+            <param name="size">number of bytes to write</param>
+            <returns>number of bytes that were actually written</returns>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown when a communications failure occurs</exception>
+            <remarks>Under some interface types, this function will succeed even when no data was written out.  Your application should call this function a limited number of times until all the data has been written out or until an application determined retry threshold has been reached.</remarks>
+        </member>
+        <member name="M:StarMicronics.StarIO.IPort.ReadPort(System.Byte[]@,System.UInt32,System.UInt32)">
+            <summary>
+            This function reads data from the device.
+            </summary>
+            <param name="readBuffer">byte buffer into which data is read</param>
+            <param name="offset">offset into the read buffer</param>
+            <param name="size">number of bytes to read</param>
+            <returns>number of bytes that were actually read</returns>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown when a communications failure occurs</exception>
+            <remarks>Under some interface types, this function will succeed even when no data was read in.  Your application should call this function a limited number of times until the expected data has been read in or until an application determined retry threshold has been reached.</remarks>
+        </member>
+        <member name="M:StarMicronics.StarIO.IPort.GetParsedStatus">
+            <summary>
+            This function retreives the device's detailed status.
+            </summary>
+            <returns>StarPrinterStatus structure where the devices detailed status is written</returns>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown when a communications failure occurs</exception>
+        </member>
+        <member name="M:StarMicronics.StarIO.IPort.GetOnlineStatus">
+            <summary>
+            This function retreives the device's online status.
+            </summary>
+            <returns>The device's online status.</returns>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown when a communications failure occurs</exception>
+        </member>
+        <member name="M:StarMicronics.StarIO.IPort.BeginCheckedBlock">
+            <summary>
+            This function initiates a checked block printing operation and returns the devices detailed status.
+            </summary>
+            <returns>The device's detailed status</returns>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown when a communications failure occurs</exception>
+        </member>
+        <member name="M:StarMicronics.StarIO.IPort.EndCheckedBlock">
+            <summary>
+            <para>This function ends a checked block printing operation and returns the devices detailed status.
+            This function does not return until either the printer has successfully printed all data or has
+            gone offline in error.
+            </para>
+            <para>
+            If the StarPrinterStatus structure indicates that the printer is online upon return than all data
+            was successfully printed.
+            </para>
+            </summary>
+            <returns>The device's detailed status</returns>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown when a communications failure occurs</exception>
+        </member>
+        <member name="M:StarMicronics.StarIO.IPort.ResetDevice">
+            <summary>
+            This function resets the device at the hardware level.
+            </summary>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown when a communications failure occurs</exception>
+        </member>
+        <member name="P:StarMicronics.StarIO.IPort.PortName">
+            <summary>
+            The originally specified port name.
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.IPort.PortSettings">
+            <summary>
+            The originally specified port settings.
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.IPort.Timeout">
+            <summary>
+            The originally specified timeout;
+            </summary>
+        </member>
+        <member name="T:StarMicronics.StarIO.IFactory">
+            <summary>
+            Factory interface providing IPort creation and destruction services.
+            </summary>
+        </member>
+        <member name="M:StarMicronics.StarIO.IFactory.GetPort(System.String,System.String,System.Int32)">
+            <summary>
+            This method opens a connection to the specified port.
+            </summary>
+            <param name="portName">The name of the port to open.  See this package's help file for details.</param>
+            <param name="portSettings">The communication settings to be applied to the port.  See this package's help file for details.</param>
+            <param name="timeout">Timeout controlling internally used communication APIs (this parameter garantees that all communication requests will complete in a bounded amount of time, but does NOT garantee the exact timeout length).</param>
+            <returns>The manually reference-counted IPort object.</returns>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown if the port cannot be opened (retry if the exception's 'IsPortInUseFailure' property is true)</exception>
+        </member>
+        <member name="M:StarMicronics.StarIO.IFactory.ReleasePort(StarMicronics.StarIO.IPort)">
+            <summary>
+            This method closes a previously opened port connection.
+            </summary>
+            <param name="port">A previously obtained port object.</param>
+            <exception cref="T:StarMicronics.StarIO.PortException">thrown if the port cannot be closed</exception>
+        </member>
+        <member name="T:StarMicronics.StarIO.PortException">
+            <summary>
+            Indicates that a communications failure has occurred.
+            </summary>
+        </member>
+        <member name="M:StarMicronics.StarIO.PortException.#ctor(System.String)">
+            <summary>
+            Standard exception constructor.
+            </summary>
+            <param name="message">Description of the failure</param>
+        </member>
+        <member name="M:StarMicronics.StarIO.PortException.#ctor(System.Boolean,System.String)">
+            <summary>
+            Extended information constructor providing for the isPortInUseFailure condition.
+            </summary>
+            <param name="_isPortInUseFailure">Indicates that the communications failure occurred because the port is being used by another process.</param>
+            <param name="message">Description of the failure</param>
+        </member>
+        <member name="P:StarMicronics.StarIO.PortException.IsPortInUseFailure">
+            <summary>
+            If this is true the the communications error occurred because the port
+            is being used by another process; you should sleep for a little bit then
+            retry.
+            </summary>
+        </member>
+        <member name="T:StarMicronics.StarIO.StarPrinterStatus">
+            <summary>
+            This class represents the printer's status.
+            </summary>
+        </member>
+        <member name="M:StarMicronics.StarIO.StarPrinterStatus.#ctor">
+            <summary>
+            Initializes the status structure
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.CoverOpen">
+            <summary>
+            True indicates that the printer's cover is open
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.Offline">
+            <summary>
+            True indicates that the printer is offline
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.CompulsionSwitch">
+            <summary>
+            True indicates that the compulsion switch is outputting its signal (device dependent)
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.OverTemp">
+            <summary>
+            True indicates that the printer is offline because it has over heated
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.UnrecoverableError">
+            <summary>
+            True indicates a very serious really horrible death
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.CutterError">
+            <summary>
+            True indicates that the cutter is jammed or otherwise in error
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.MechanicalError">
+            <summary>
+            True indicates that the mechanism has errored
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.HeadThermistorError">
+            <summary>
+            True indicates that the head thermistor has errored
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ReceiveBufferOverflow">
+            <summary>
+            True indicates that the received buffer was overflowed with some data potentially lost
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.PageModeCommandError">
+            <summary>
+            True indicates that the page mode data contained an error
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.BlackMarkError">
+            <summary>
+            True indicates that the black mark search function has errored
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.PresenterPaperJamError">
+            <summary>
+            True indicates that the presenter unit has a paper jam
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.HeadUpError">
+            <summary>
+            True indicates that the printer's head is in the up position
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.VoltageError">
+            <summary>
+            True indicates that the printer's input voltage is out of range
+            /// </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ReceiptBlackMarkDetection">
+            <summary>
+            True indicates that a black mark was detected by the receipt printer unit
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ReceiptPaperEmpty">
+            <summary>
+            True indicates that the receipt printer unit is out of paper
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ReceiptPaperNearEmptyInner">
+            <summary>
+            True indicates that the receipt printer's inner near paper empty sensor has gone active
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ReceiptPaperNearEmptyOuter">
+            <summary>
+            True indicates that the receipt printer's outer near paper empty sensor has gone active
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.PresenterPaperPresent">
+            <summary>
+            True indicates that there is paper in the presenter unit
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.PeelerPaperPresent">
+            <summary>
+            True indicates that there is paper in the peeler unit
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.StackerFull">
+            <summary>
+            True indicates that the stacker unit has tickets queued in it
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.SlipTOF">
+            <summary>
+            True indicates that the slip printer's top-of-form sensor has gone active
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.SlipBOF">
+            <summary>
+            True indicates that the slip printer's bottom-of-form sensor has gone active
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.SlipCOF">
+            <summary>
+            True indicates that the slip printer's center-of-form sensor has gone active
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ValidationPaperPresent">
+            <summary>
+            True indicates that the slip printer's validation unit has paper in it
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.SlipPaperPresent">
+            <summary>
+            True indicates that the slip printer unit has paper in it
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ETBAvailable">
+            <summary>
+            True indicates that this status structures ETB counter is reliable
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.ETBCounter">
+            <summary>
+            Counter indicating printer processing of the ETB command (see the Star Micronics programmer's manual for info)
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.PresenterState">
+            <summary>
+            Numeric state information for the presenter unit (see the Star Micronics programmer's manual for info)
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.StarPrinterStatus.RawStatus">
+            <summary>
+            The original status data returned by the printer
+            </summary>
+        </member>
+        <member name="T:StarMicronics.StarIO.Factory">
+            <summary>
+            Implimenation of the IFactory interface - accessible only through the static 'I' member.
+            </summary>
+        </member>
+        <member name="P:StarMicronics.StarIO.Factory.I">
+            <summary>
+            Use this to obtain the factory object (or replace this with a mock object to run your testing).
+            </summary>
+        </member>
+    </members>
+</doc>

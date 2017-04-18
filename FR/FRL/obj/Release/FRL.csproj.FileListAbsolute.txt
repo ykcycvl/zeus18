@@ -1,0 +1,12 @@
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\bin\Release\FRL.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\bin\Release\FRL.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\bin\Release\Interop.FprnM1C.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\obj\Release\Interop.FprnM1C.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\obj\Release\FRL.csproj.ResolveComReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\obj\Release\FRL.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FRL\obj\Release\FRL.pdb
+D:\Zeus2013\FR\FRL\obj\Release\ResolveAssemblyReference.cache
+D:\Zeus2013\FR\FRL\obj\Release\Interop.FprnM1C.dll
+D:\Zeus2013\FR\FRL\obj\Release\FRL.csproj.ResolveComReference.cache
+D:\Zeus2013\FR\FRL\obj\Release\FRL.dll

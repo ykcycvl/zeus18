@@ -1,0 +1,5 @@
+D:\Zeus2013\wds\wds\bin\Release\wds.dll
+D:\Zeus2013\wds\wds\bin\Release\wds.pdb
+D:\Zeus2013\wds\wds\obj\Release\ResolveAssemblyReference.cache
+D:\Zeus2013\wds\wds\obj\Release\wds.dll
+D:\Zeus2013\wds\wds\obj\Release\wds.pdb

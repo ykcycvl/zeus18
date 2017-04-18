@@ -1,0 +1,10 @@
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Release\Acceptors.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\bin\Release\Acceptors.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Release\Acceptors.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Acceptors\Acceptors\obj\Release\Acceptors.pdb
+D:\Zeus2013\Acceptors\Acceptors\bin\Release\Acceptors.dll
+D:\Zeus2013\Acceptors\Acceptors\bin\Release\Acceptors.pdb
+D:\Zeus2013\Acceptors\Acceptors\obj\Release\ResolveAssemblyReference.cache
+D:\Zeus2013\Acceptors\Acceptors\obj\Release\Acceptors.dll
+D:\Zeus2013\Acceptors\Acceptors\obj\Release\Acceptors.pdb

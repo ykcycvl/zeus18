@@ -1,0 +1,8 @@
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Printers\Printers\bin\Release\Printers.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Printers\Printers\bin\Release\Printers.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Printers\Printers\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Printers\Printers\obj\Release\Printers.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\Printers\Printers\obj\Release\Printers.pdb
+D:\Zeus2013\Printers\Printers\obj\Release\ResolveAssemblyReference.cache
+D:\Zeus2013\Printers\Printers\obj\Release\Printers.dll
+D:\Zeus2013\Printers\Printers\obj\Release\Printers.pdb

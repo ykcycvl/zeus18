@@ -1,0 +1,4 @@
+C:\WorkPrograms\_Automats\Zeus18\Zeus18\obj\Release\ResolveAssemblyReference.cache
+C:\WorkPrograms\_Automats\Zeus18\Zeus18\obj\Release\zeus.Form1.resources
+C:\WorkPrograms\_Automats\Zeus18\Zeus18\obj\Release\zeus.Properties.Resources.resources
+C:\WorkPrograms\_Automats\Zeus18\Zeus18\obj\Release\Zeus18.csproj.GenerateResource.Cache

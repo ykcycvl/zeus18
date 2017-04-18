@@ -1,0 +1,16 @@
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\bin\Debug\FR.exe
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\bin\Debug\FR.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\bin\Debug\FRL.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\bin\Debug\Interop.FprnM1C.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\bin\Debug\FRL.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\Interop.FprnM1C.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\FRTest.csproj.ResolveComReference.cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\FR.Form1.resources
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\FR.Properties.Resources.resources
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\FRTest.csproj.GenerateResource.Cache
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\FR.exe
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\FR.pdb
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\obj\Debug\FR.Form2.resources
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\bin\Debug\IPayBox.Helper.dll
+C:\Documents and Settings\dima.k\Мои документы\Visual Studio 2008\Projects\FR\FR\bin\Debug\IPayBox.Helper.pdb

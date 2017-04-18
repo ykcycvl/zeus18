@@ -1,0 +1,16 @@
+<terminal>
+  <terminal_id>10001</terminal_id>
+  <password>827ccb0eea8a706c4c34a16891f84e7b</password>
+  <pin>c4ca4238a0b923820dcc509a6f75849b</pin>
+  <secret_number>e11170b8cbd2d74102651cb967fa28e5</secret_number>
+  <agent_jur_name>ООО ТЕСТ</agent_jur_name>
+  <agent_inn>655588855</agent_inn>
+  <agent_support_phone>8-495-666-9632</agent_support_phone>
+  <bank>
+  </bank>
+  <terms_number>дог. №321234</terms_number>
+  <agent_adress>г. Екатиринбург, ул. Долгожитетей 76</agent_adress>
+  <configuration-id>513</configuration-id>
+  <interface>4</interface>
+  <terminal_adress>г Владивосток,ул Нерчинская 48</terminal_adress>
+</terminal>

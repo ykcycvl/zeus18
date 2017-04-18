@@ -1,0 +1,10 @@
+D:\work\remoteFR\remoteFR\bin\Debug\remoteFR.dll
+D:\work\remoteFR\remoteFR\bin\Debug\remoteFR.pdb
+D:\work\remoteFR\remoteFR\obj\Debug\ResolveAssemblyReference.cache
+D:\work\remoteFR\remoteFR\obj\Debug\remoteFR.dll
+D:\work\remoteFR\remoteFR\obj\Debug\remoteFR.pdb
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\bin\Debug\remoteFR.dll
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\bin\Debug\remoteFR.pdb
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\obj\Debug\remoteFR.dll
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\obj\Debug\remoteFR.pdb

@@ -1,0 +1,5 @@
+D:\work\remoteFR\remoteFR\bin\Release\remoteFR.dll
+D:\work\remoteFR\remoteFR\bin\Release\remoteFR.pdb
+D:\work\remoteFR\remoteFR\obj\Release\ResolveAssemblyReference.cache
+D:\work\remoteFR\remoteFR\obj\Release\remoteFR.dll
+D:\work\remoteFR\remoteFR\obj\Release\remoteFR.pdb
