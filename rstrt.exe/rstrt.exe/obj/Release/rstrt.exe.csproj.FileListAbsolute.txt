@@ -8,3 +8,8 @@ D:\Zeus2013\rstrt.exe\rstrt.exe\bin\Release\rstrt.exe.pdb
 D:\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\ResolveAssemblyReference.cache
 D:\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.exe
 D:\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.pdb
+C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\bin\Release\rstrt.exe.exe
+C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\bin\Release\rstrt.exe.pdb
+C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\ResolveAssemblyReference.cache
+C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.exe
+C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\obj\Release\rstrt.exe.pdb

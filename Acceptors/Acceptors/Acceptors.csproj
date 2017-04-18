@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CashCode CCNET.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Acceptor.cs" />
     <Compile Include="EBA03.cs" />
     <Compile Include="log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

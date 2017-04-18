@@ -28,8 +28,3 @@ C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\bin\Debug\rstrt.exe.pdb
 C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\obj\Debug\ResolveAssemblyReference.cache
 C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\obj\Debug\rstrt.exe.exe
 C:\WorkPrograms\_Automats\Zeus2013\rstrt.exe\rstrt.exe\obj\Debug\rstrt.exe.pdb
-C:\WorkPrograms\_Automats\Zeus2017\rstrt.exe\rstrt.exe\bin\Debug\rstrt.exe.exe
-C:\WorkPrograms\_Automats\Zeus2017\rstrt.exe\rstrt.exe\bin\Debug\rstrt.exe.pdb
-C:\WorkPrograms\_Automats\Zeus2017\rstrt.exe\rstrt.exe\obj\Debug\ResolveAssemblyReference.cache
-C:\WorkPrograms\_Automats\Zeus2017\rstrt.exe\rstrt.exe\obj\Debug\rstrt.exe.exe
-C:\WorkPrograms\_Automats\Zeus2017\rstrt.exe\rstrt.exe\obj\Debug\rstrt.exe.pdb

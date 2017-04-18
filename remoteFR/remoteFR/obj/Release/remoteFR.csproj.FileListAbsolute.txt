@@ -3,3 +3,8 @@ D:\work\remoteFR\remoteFR\bin\Release\remoteFR.pdb
 D:\work\remoteFR\remoteFR\obj\Release\ResolveAssemblyReference.cache
 D:\work\remoteFR\remoteFR\obj\Release\remoteFR.dll
 D:\work\remoteFR\remoteFR\obj\Release\remoteFR.pdb
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\bin\Release\remoteFR.dll
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\bin\Release\remoteFR.pdb
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\obj\Release\ResolveAssemblyReference.cache
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\obj\Release\remoteFR.dll
+C:\WorkPrograms\_Automats\Zeus2017\remoteFR\remoteFR\obj\Release\remoteFR.pdb

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{C4C9007C-A2F4-4C95-8CA4-1FB0CF7DC673}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -63,10 +63,11 @@
     <Compile Include="av268.cs" />
     <Compile Include="Citizen.cs" />
     <Compile Include="DatabaseSetup.cs" />
-    <Compile Include="Printer.cs" />
+    <Compile Include="log.cs" />
+    <Compile Include="prim21k.cs" />
     <Compile Include="T400.cs" />
     <Compile Include="ICT.cs" />
-    <Compile Include="Independed.cs" />
+    <Compile Include="Printer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StarTUP900CodePage.cs" />
     <Compile Include="TUP900.cs" />

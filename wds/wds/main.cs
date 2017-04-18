@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace WD
 {
-    public class Independed 
+    public class Watchdog 
     {
         public enum WD {NULL,OSMP,SOBAKA};
 
@@ -14,7 +14,7 @@ namespace WD
         Osmp osmp ;
         Sobaka sobaka;
         public string Version = "";
-        public Independed(string[] ports)
+        public Watchdog(string[] ports)
         {
             watch = WD.NULL;
 
@@ -84,13 +84,6 @@ namespace WD
                 catch (Exception ex)
                 { 
                 }
-            }
-        }
-        ~Independed()
-        {
-            switch (watch)
-            {
-                case WD.OSMP: osmp.Close(); break;
             }
         }
         public bool ResetModem()

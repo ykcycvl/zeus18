@@ -12,7 +12,7 @@ namespace Acceptors
     public enum Commands { Reset, GetStatus, StartTake, StopTake, AcceptMoney }
     public enum Result { OK, Error, Null }
 
-    public class Independed
+    public class Acceptor
     {
         private string[] availablePorts;  // Список доступных портов
         public Model model;
@@ -31,6 +31,9 @@ namespace Acceptors
         public int CountR500;
         public int CountR1000;
         public int CountR5000;
+        EBA03 eba;
+        CashCode_CCNET ccnet;
+        public AcceptMoney accmoney;
 
         public struct AcceptMoney
         {
@@ -42,45 +45,43 @@ namespace Acceptors
             public bool R5000;
         }
 
-        EBA03 eba;
-        CashCode_CCNET ccnet;
-        public AcceptMoney accmoney;
-
-        public Independed()
+        public Acceptor()
         {
-            List<string> cmports = new List<string>();
+            List<string> comports = new List<string>();
+            log.AddToLog("\r\n-------------------------------------------------------");
+            log.AddToLog("Поиск купюроприемника");
 
             try
             {
-                log.AddToLog("\r\n-------------------------------------------------------");
-                log.AddToLog("Определение купюроприемника");
-
-                RegistryKey comdevices = Registry.LocalMachine.OpenSubKey("HARDWARE").OpenSubKey("DEVICEMAP").OpenSubKey("SERIALCOMM");
-                string[] devices = comdevices.GetValueNames();
-
-                foreach (string s in devices)
+                using (RegistryKey comdevices = Registry.LocalMachine.OpenSubKey("HARDWARE").OpenSubKey("DEVICEMAP").OpenSubKey("SERIALCOMM"))
                 {
-                    Match m = Regex.Match(s, @"QCUSB_COM", RegexOptions.IgnoreCase);
+                    string[] devices = comdevices.GetValueNames();
 
-                    if (m.Success)
+                    foreach (string s in devices)
                     {
-                        Object o1 = comdevices.GetValue(s);
-                        cmports.Add(o1.ToString());
+                        Match m = Regex.Match(s, @"QCUSB_COM", RegexOptions.IgnoreCase);
+
+                        if (m.Success)
+                        {
+                            Object o1 = comdevices.GetValue(s);
+                            comports.Add(o1.ToString());
+                        }
                     }
                 }
             }
             catch (Exception ex)
             {
+                log.AddToLog(ex.Message);
             }
 
-            log.AddToLog("Обнаружение доступных портов...");
+            log.AddToLog("Поиск доступных портов...");
             availablePorts  = System.IO.Ports.SerialPort.GetPortNames();
 
             for (int i = 0; i < availablePorts.Length; i++)
             {
-                if (cmports.Count > 0)
+                if (comports.Count > 0)
                 {
-                    string s = cmports.Find(p => p == availablePorts[i]);
+                    string s = comports.Find(p => p == availablePorts[i]);
 
                     if (!String.IsNullOrEmpty(s))
                         continue;
@@ -131,11 +132,6 @@ namespace Acceptors
                         ans = ccnet.ReadAnswer();
                         log.AddToLog("получен ответ " + ans);
                     }
-                    //System.Threading.Thread.Sleep(50);
-                    //ccnet.ReadAnswer();
-                    
-                    //ccnet.SendCommand(CashCode_CCNET.CCNET_Commands.ACK);
-                    //System.Threading.Thread.Sleep(50);
 
                     log.AddToLog("отправка команды CashCode_CCNET.CCNET_Commands.IDENT");
                     ccnet.SendCommand(CashCode_CCNET.CCNET_Commands.IDENT);
@@ -188,11 +184,11 @@ namespace Acceptors
             BillAcceptorActivity = false;
             log.AddToLog("Выход");
         }
-        public bool AllowMoneyEnterOnPooling 
-        { get; set; }
+        public bool AllowMoneyEnterOnPooling { get; set; }
         public Result SendCommand(Commands cmd)
         {
             Result ret = Result.Null;
+
             switch (model)
             { 
                 case Model.EBA03:
@@ -205,23 +201,23 @@ namespace Acceptors
                     ret = Result.Null;
                     Error = true;
                     ErrorMsg = "Port is null";
-
                     break;
             }
-            return ret;
 
+            return ret;
         }
         private Result SendEBA(Commands cmd)
         {
             Result ret = Result.Null;
             EBA03.EBA03_Returns ans;
+
             if (eba.IsOpen())
             {
                 switch (cmd)
                 { 
                     case Commands.Reset:
                         eba.SendCommand(EBA03.EBA03_Commands.Reset);
-                         ans= eba.ReadAnswer();
+                        ans = eba.ReadAnswer();
 
                         if (ans == EBA03.EBA03_Returns.Ack)
                             ret = Result.OK;
@@ -404,6 +400,7 @@ namespace Acceptors
                 if (ans == EBA03.EBA03_Returns.VendValid)
                 {
                     eba.SendCommand(EBA03.EBA03_Commands.Ack);
+
                     switch(int.Parse(eba.EnteredMoney.ToString().Replace("RUB", "")))
                     {
                         case 10: CountR10++; break;
@@ -412,23 +409,24 @@ namespace Acceptors
                         case 500: CountR500++; break;
                         case 1000: CountR1000++; break;
                         case 5000: CountR5000++; break;
-                          
                     }
+
                     Amount += Decimal.Parse(eba.EnteredMoney.ToString().Replace("RUB", ""));
                     BillCount++;
                     eba.EnteredMoney = EBA03.Money.RUB0;
                 }
+
                 if (ans == EBA03.EBA03_Returns.ERROR)
                 {
                     Error = true;
                     ErrorMsg = eba.Error.ToString();
                 }
+
                 if (ans == EBA03.EBA03_Returns.PowerUpWithBilliAcceptor || ans == EBA03.EBA03_Returns.PowerUpWithBillInStacker)
                 {
                     Error = true;
                     ErrorMsg = ans.ToString();
                 }
-
             }
             else
             { Error = true; ErrorMsg = "Port not open."; }

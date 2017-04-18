@@ -41,11 +41,3 @@ C:\WorkPrograms\_Automats\Zeus2013\Printers\Printers\bin\Debug\StarIO.xml
 C:\WorkPrograms\_Automats\Zeus2013\Printers\Printers\obj\Debug\ResolveAssemblyReference.cache
 C:\WorkPrograms\_Automats\Zeus2013\Printers\Printers\obj\Debug\Printers.dll
 C:\WorkPrograms\_Automats\Zeus2013\Printers\Printers\obj\Debug\Printers.pdb
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\bin\Debug\StarIOPort.dll
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\bin\Debug\Printers.dll.config
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\bin\Debug\Printers.dll
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\bin\Debug\Printers.pdb
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\bin\Debug\StarIO.xml
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\obj\Debug\ResolveAssemblyReference.cache
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\obj\Debug\Printers.dll
-C:\WorkPrograms\_Automats\Zeus2017\Printers\Printers\obj\Debug\Printers.pdb

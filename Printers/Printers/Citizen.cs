@@ -221,6 +221,5 @@ namespace Printers
                     com.Close();
             }
         }
-
     }
 }

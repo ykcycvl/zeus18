@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Acceptors
+namespace Printers
 {
     public static class log
     {
-        private static string logfolder = @"logs\acceptor_logs\";
-        private static string FileName = "AcceptorLog_" + DateTime.Today.ToShortDateString() + ".log";
+        private static string logfolder = @"logs\printer_logs\";
+        private static string FileName = "PrinterLog_" + DateTime.Today.ToShortDateString() + ".log";
 
         public static void AddToLog(string message)
         {

@@ -31,13 +31,6 @@ C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\bin\Debug\FRL.dll
 C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\bin\Debug\FRL.pdb
 C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\bin\Debug\IPayBox.Helper.pdb
 C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\obj\Debug\ResolveAssemblyReference.cache
-C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\obj\Debug\FRL.csproj.ResolveComReference.cache
 C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\obj\Debug\FRL.dll
 C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\obj\Debug\FRL.pdb
-C:\WorkPrograms\_Automats\Zeus2017\FR\FRL\bin\Debug\FRL.dll
-C:\WorkPrograms\_Automats\Zeus2017\FR\FRL\bin\Debug\FRL.pdb
-C:\WorkPrograms\_Automats\Zeus2017\FR\FRL\bin\Debug\IPayBox.Helper.pdb
-C:\WorkPrograms\_Automats\Zeus2017\FR\FRL\obj\Debug\ResolveAssemblyReference.cache
-C:\WorkPrograms\_Automats\Zeus2017\FR\FRL\obj\Debug\FRL.csproj.ResolveComReference.cache
-C:\WorkPrograms\_Automats\Zeus2017\FR\FRL\obj\Debug\FRL.dll
-C:\WorkPrograms\_Automats\Zeus2017\FR\FRL\obj\Debug\FRL.pdb
+C:\WorkPrograms\_Automats\Zeus2013\FR\FRL\bin\Debug\Interop.FprnM1C.dll
